@@ -1,0 +1,11 @@
+[package]
+name = "lnkhunt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+windows = "0.42.0"
+tempfile = "3.3"
+
+[features]
+test-windows = ["windows"]
